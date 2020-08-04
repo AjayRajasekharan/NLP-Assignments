@@ -9,14 +9,14 @@ Assignments submitted during the course of Natural Language Processing - CSE4022
 
 ### WordNet
 
--import wordnet
--Use the term program to find 'synsets'
--example of synset
--printing just the word
--Definition of word
--Examples of the word in use
--Generating synonyms and antonyms
--use WordNet to compare the similarity of two words and their tenses, by incorporating the Wu and Palmer method for semantic related-ness.
+- Import wordnet
+- Use the term program to find 'synsets'
+- Example of synset
+- Printing just the word
+- Definition of word
+- Examples of the word in use
+- Generating synonyms and antonyms
+- Use WordNet to compare the similarity of two words and their tenses, by incorporating the Wu and Palmer method for semantic related-ness.
 
 ### NER using NLTK
 
@@ -28,11 +28,11 @@ Being a free and an open-source library, NLTK has made advanced Natural Language
 
 First we will be scraping the desired webpage to get our article with the help of Beautiful soup. Next we will be removing square brackets and extra spaces, and save it as a text file. After input of txt file, we generate clean sentences. Then we will be using cosine similarity to find similarity between sentences. Then using summary method  we will keep calling all other help functions to keep our summarization pipeline going.
 
-**Step 1 - Read text and tokenize
-**Step 2 - Generate Similarity Matrix across sentences 
-**Step 3 - Rank sentences in similarity matrix 
-**Step 4 - Sort the rank and pick top sentences
-**Step 5 - Of course, output the summarize text
+**Step 1 - Read text and tokenize**
+**Step 2 - Generate Similarity Matrix across sentences** 
+**Step 3 - Rank sentences in similarity matrix** 
+**Step 4 - Sort the rank and pick top sentences**
+**Step 5 - Of course, output the summarize text**
 
 
 
